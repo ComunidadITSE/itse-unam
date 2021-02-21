@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+body{
+    background-image: url("./images/brain.jpg");
+}
+
+  header{
+    background-color:white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  header ul{
+    background-color: #001B58;
+    list-style: none;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  header li a{
+        text-decoration: none;
+        color:white;
+  }
+/* Aqui comienza el desarrollo de Slider*/
+  /*.container{
+    background-color:white;
+    padding:10px;
+  }*/
+
+  ul.slider{
+    position:relative;
+    width: 480px;
+    height: 300px;   
+  }
+
+  ul.slider li{
+    position:absolute;
+    left:0px;
+    top:0px;
+    opacity: 0; /*ocultar elementos*/
+    width: inherit; /*lo mueve*/
+    height: inherit; /*lo mueve*/
+    background:#001B58;
+    transition: opacity 0.5s;
+    list-style: none;
+  }
+
+  ul.slider li img{
+    margin: auto;
+    width: auto;
+    height: 270px;
+  }
+
+  ul.slider li:first-child{/*Mostramos el primer <li>*/
+    opacity: 1;
+  }
+
+  ul.slider li:target{/*Mostramos el <li> del enlace que pulsemos*/
+    opacity:1;
+  }
+
+  .menu{
+    text-align: center;
+    margin:20px;
+  }
+
+  .menu li{
+    display: inline-block;
+    text-align:center;
+    list-style: none;
+  }
+
+  .menu li a{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 0px;
+    width: 25px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 100%;
+  }
+  /*Aqui termina Slider*/
+
+  main{
+    background-color: #001B58;
+    width: 80%;
+    margin-left: 10%;
+    margin-top:15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  #sectionInicio{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  padding-bottom: 20px;
+  }
+
+  #testimonial{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+
+  #divTabla{
+    background-color: grey;
+    color:white;
+    width: 30%;
+    padding: 15px;
+  }
+
+  #divTabla ol li a{
+    text-decoration: none;
+    color:white;
+  }
+
+  #divTabla ol li a:hover{
+    color:#001B58;
+    font-size: 20px;
+  }
+
+  #frase{
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 150px;
+    padding: 15px;
+  }
+
+  .section{
+    background-color: white;
+    text-align: justify;
+    margin: 30px;
+    padding: 20px;
+  }
+
+  .tituloSec{
+    color:#001B58;
+  }
+
+  .mapa{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  }
+
+  .mapa img{
+    width: 50%;
+  }
+
+  .asignaturas{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  padding-bottom: 20px;
+  }
+
+  .asignaturas table{
+    border-collapse: separate;
+    border:#001B58 1px solid;
+    width: 30%;
+  }
+
+  .asignaturas th{
+    background-color: #C2E1FE;
+    text-align:center;
+    padding: 5px;
+  }
+
+  .asignaturas td{
+    text-align: center;
+    margin:5px;
+    padding:5px;
+  }
+
+  #contacto{
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+/*BoxMessage*/
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
+
+footer{
+  background-color:#001B58;
+  margin-top: 20px;
+  margin-bottom: 0;
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer h3,h4{
+  color: white;
+}
