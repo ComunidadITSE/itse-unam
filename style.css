@@ -11,12 +11,23 @@ body{
   header{
     background-color:#001B58;
   }
+/**Efecto hover en la barra de navegacion**/
+#pestana li{
+    border-radius:5px;
+}
+
+#pestana li:hover{
+  background-color: #D59F0F ;
+}
+
+#pestana li a:hover{
+  color:white;
+}
 
   main{
     background-color: #001B58;
     width: 80%;
-    margin-left: 10%;
-    margin-top:15px;
+    margin: 15px;
     padding-bottom: 15px;
   }
 
@@ -34,9 +45,11 @@ body{
   }
 
   #divTabla{
+    text-align: justify;
     background-color: grey;
     color:white;
-    width: 30%;
+    height: auto;
+    width: auto;
     padding: 15px;
   }
 
@@ -54,7 +67,7 @@ body{
     background-color: white;
     text-align: center;
     width: 30%;
-    height: 150px;
+    height: auto;
     padding: 15px;
   }
 
@@ -100,7 +113,6 @@ body{
 
   .asignaturas td{
     text-align: center;
-    margin:5px;
     padding:5px;
   }
 
@@ -108,40 +120,6 @@ body{
     margin-left: 200px;
     margin-right: 200px;
   }
-/*BoxMessage*/
-.callout {
-  position: fixed;
-  bottom: 35px;
-  right: 20px;
-  margin-left: 20px;
-  max-width: 300px;
-}
-
-.callout-header {
-  padding: 25px 15px;
-  background: #555;
-  font-size: 30px;
-  color: white;
-}
-
-.callout-container {
-  padding: 15px;
-  background-color: #ccc;
-  color: black
-}
-
-.closebtn {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.closebtn:hover {
-  color: lightgrey;
-}
 
 footer{
   background-color:#001B58;
