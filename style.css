@@ -9,91 +9,14 @@ body{
 }
 
   header{
-    background-color:white;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
+    background-color:#001B58;
   }
-
-  header ul{
-    background-color: #001B58;
-    list-style: none;
-    border-radius: 15px;
-    padding: 10px;
-  }
-
-  header li a{
-        text-decoration: none;
-        color:white;
-  }
-/* Aqui comienza el desarrollo de Slider*/
-  /*.container{
-    background-color:white;
-    padding:10px;
-  }*/
-
-  ul.slider{
-    position:relative;
-    width: 480px;
-    height: 300px;   
-  }
-
-  ul.slider li{
-    position:absolute;
-    left:0px;
-    top:0px;
-    opacity: 0; /*ocultar elementos*/
-    width: inherit; /*lo mueve*/
-    height: inherit; /*lo mueve*/
-    background:#001B58;
-    transition: opacity 0.5s;
-    list-style: none;
-  }
-
-  ul.slider li img{
-    margin: auto;
-    width: auto;
-    height: 270px;
-  }
-
-  ul.slider li:first-child{/*Mostramos el primer <li>*/
-    opacity: 1;
-  }
-
-  ul.slider li:target{/*Mostramos el <li> del enlace que pulsemos*/
-    opacity:1;
-  }
-
-  .menu{
-    text-align: center;
-    margin:20px;
-  }
-
-  .menu li{
-    display: inline-block;
-    text-align:center;
-    list-style: none;
-  }
-
-  .menu li a{
-    display: inline-block;
-    color:white;
-    text-decoration: none;
-    background-color: grey;
-    padding: 0px;
-    width: 25px;
-    height: 25px;
-    font-size: 17px;
-    border-radius: 100%;
-  }
-  /*Aqui termina Slider*/
 
   main{
     background-color: #001B58;
     width: 80%;
     margin-left: 10%;
     margin-top:15px;
-    padding-top: 15px;
     padding-bottom: 15px;
   }
 
