@@ -39,6 +39,7 @@ body{
   }
 
   #testimonial{
+    margin-top: 15px;
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -46,7 +47,7 @@ body{
 
   #divTabla{
     text-align: justify;
-    background-color: grey;
+    background-color: gray;
     color:white;
     height: auto;
     width: auto;
@@ -60,7 +61,6 @@ body{
 
   #divTabla ol li a:hover{
     color:#001B58;
-    font-size: 20px;
   }
 
   #frase{
@@ -73,9 +73,10 @@ body{
 
   .section{
     background-color: white;
-    text-align: justify;
+    text-align:justify;
     margin: 30px;
     padding: 20px;
+    font-size: medium;
   }
 
   .tituloSec{
