@@ -8,9 +8,24 @@ body{
     background-image: url("./images/brain.jpg");
 }
 
-  header{
-    background-color:#001B58;
-  }
+header{
+  background-color:#001B58;
+}
+
+main{
+  background-color: #001B58;
+  width: 85%;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin-top:15px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#slider{
+  padding-left:15%;padding-right:15%;margin-bottom:15px;padding-top:15px;
+}
+
 /**Efecto hover en la barra de navegacion**/
 #pestana li{
     border-radius:5px;
@@ -24,12 +39,7 @@ body{
   color:white;
 }
 
-  main{
-    background-color: #001B58;
-    width: 80%;
-    margin: 15px;
-    padding-bottom: 15px;
-  }
+
 
   #sectionInicio{
   display: flex;
@@ -38,7 +48,7 @@ body{
   padding-bottom: 20px;
   }
 
-  #testimonial{
+  .testimonial{
     margin-top: 15px;
     display: flex;
     justify-content: space-around;
