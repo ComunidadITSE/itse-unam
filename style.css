@@ -15,9 +15,10 @@ header{
 main{
   background-color: #001B58;
   width: 85%;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  margin-top:15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-top:10px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -48,13 +49,14 @@ main{
   padding-bottom: 20px;
   }
 
-  .testimonial{
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
+  .enlace{
+    text-decoration:none;
+  }
+  .enlace:hover{
+    text-decoration: underline;
   }
 
+/**Tabla de contemidp**/
   #divTabla{
     text-align: justify;
     background-color: gray;
@@ -83,14 +85,19 @@ main{
 
   .section{
     background-color: white;
-    text-align:justify;
-    margin: 30px;
-    padding: 20px;
+    text-align:left;
+    margin: 3%;
+    padding: 3% 4% 3% 4% ;
     font-size: medium;
+  }
+
+  .section p,ul{
+    text-align: justify;
   }
 
   .tituloSec{
     color:#001B58;
+    text-align: left;
   }
 
   .mapa{
