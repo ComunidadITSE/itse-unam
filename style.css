@@ -134,6 +134,12 @@ main{
     padding:5px;
   }
 
+  #cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
   #contacto{
     margin-left: 200px;
     margin-right: 200px;
