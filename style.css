@@ -8,17 +8,39 @@ body{
     background-image: url("./images/brain.jpg");
 }
 
-  header{
-    background-color:#001B58;
-  }
+header{
+  background-color:#001B58;
+}
 
-  main{
-    background-color: #001B58;
-    width: 80%;
-    margin-left: 10%;
-    margin-top:15px;
-    padding-bottom: 15px;
-  }
+main{
+  background-color: #001B58;
+  width: 85%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#slider{
+  padding-left:15%;padding-right:15%;margin-bottom:15px;padding-top:15px;
+}
+
+/**Efecto hover en la barra de navegacion**/
+#pestana li{
+    border-radius:5px;
+}
+
+#pestana li:hover{
+  background-color: #D59F0F ;
+}
+
+#pestana li a:hover{
+  color:white;
+}
+
+
 
   #sectionInicio{
   display: flex;
@@ -27,16 +49,20 @@ body{
   padding-bottom: 20px;
   }
 
-  #testimonial{
-    display: flex;
-    justify-content: space-around;
-    align-items:center;
+  .enlace{
+    text-decoration:none;
+  }
+  .enlace:hover{
+    text-decoration: underline;
   }
 
+/**Tabla de contemidp**/
   #divTabla{
-    background-color: grey;
+    text-align: justify;
+    background-color: gray;
     color:white;
-    width: 30%;
+    height: auto;
+    width: auto;
     padding: 15px;
   }
 
@@ -47,26 +73,31 @@ body{
 
   #divTabla ol li a:hover{
     color:#001B58;
-    font-size: 20px;
   }
 
   #frase{
     background-color: white;
     text-align: center;
     width: 30%;
-    height: 150px;
+    height: auto;
     padding: 15px;
   }
 
   .section{
     background-color: white;
+    text-align:left;
+    margin: 3%;
+    padding: 3% 4% 3% 4% ;
+    font-size: medium;
+  }
+
+  .section p,ul{
     text-align: justify;
-    margin: 30px;
-    padding: 20px;
   }
 
   .tituloSec{
     color:#001B58;
+    text-align: left;
   }
 
   .mapa{
@@ -100,59 +131,35 @@ body{
 
   .asignaturas td{
     text-align: center;
-    margin:5px;
     padding:5px;
+  }
+
+  #cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   #contacto{
     margin-left: 200px;
     margin-right: 200px;
   }
-/*BoxMessage*/
-.callout {
-  position: fixed;
-  bottom: 35px;
-  right: 20px;
-  margin-left: 20px;
-  max-width: 300px;
-}
-
-.callout-header {
-  padding: 25px 15px;
-  background: #555;
-  font-size: 30px;
-  color: white;
-}
-
-.callout-container {
-  padding: 15px;
-  background-color: #ccc;
-  color: black
-}
-
-.closebtn {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
-}
-
-.closebtn:hover {
-  color: lightgrey;
-}
 
 footer{
   background-color:#001B58;
   margin-top: 20px;
   margin-bottom: 0;
   align-items:center;
-  display:flex;
-  flex-direction: column;
   padding: 20px;
 }
 
-.foot{
+
+footer h6,h5{
   color: white;
+}
+
+#redes{
+  display: flex;
+  align-items:center;
+  justify-content: right;
 }
