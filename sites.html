@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"> <!--IconosBootstrap-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--iconos Google-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="icon" href="./images/logo_itseNB.png"/>
     <title>ITSE</title>
@@ -49,7 +48,7 @@
                 <a class="nav-link" href="./mapa.html">Mapa Curricular</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./servicio_social.html">Servicio Social</a>
+                <a class="nav-link" href="./servicio.html">Servicio Social</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./titulacion.html">Titulación</a>
@@ -66,6 +65,42 @@
       </nav>
 
     <main>
+     <section class="section">
+      <h5 class="tituloSec" id="social"><b><u>Servicios para el Alumno</u></b></h5>
+        <article>
+            <p>
+                La FES Cuautitlán cuenta con;
+                <a href="https://www.facebook.com/Biblioteca.FES.Cuautitlan" class="link-warning" target="_blank">bibliotecas</a> 
+                , 
+                <a href="https://www.cuautitlan.unam.mx/liem/" class="link-success" target="_blank">laboratorios de investigación y docencia</a>
+                
+                , 
+                <a href="http://asesorias.cuautitlan2.unam.mx/computo/" class="link-primary"  target="_blank">Centro de Computo</a>
+                , 
+                <a href="https://www.facebook.com/educacioncontinua.cuautitlan/" class="link-info" target="_blank">Talleres de Aprendizaje</a> 
+                y Centros para Prácticas Escolares.
+                Además de contar con 
+                <a href="https://www.cuautitlan.unam.mx/difusion_cultural/talleres_culturales.html" style="color: rgb(255, 0, 255);" target="_blank">actividades culturales</a>
+                , a través de la 
+                <a href="https://www.facebook.com/profile.php?id=100057480429971" class="link-danger" target="_blank">Secretaría de Atención en la Comunidad</a>
+                se ofrecen 
+                <a href="https://www.facebook.com/SMFESC" style="color: rgb(26, 188, 156 );" target="_blank">servicios de salud</a>
+                ,
+                <a href="https://www.facebook.com/FESCDeportes/" style="color: rgb(0, 0, 128);" target="_blank">actividades deportivas</a>
+                , 
+                <a href="https://www.facebook.com/BolsaTrabajoFESC" style="color: rgb(128, 0, 0);" target="_blank">bolsa de trabajo</a>
+                , una numerosa variedad de becas que incluyen las de 
+                <a href="https://www.facebook.com/movilidadestudiantilfesc" style="color: rgb(128, 0, 128);" target="_blank">intercambio nacional e internacional</a>
+                .
+            </p>
+            <p>
+                También brinda
+                <a href="https://www.facebook.com/movilidadestudiantilfesc" style="color: rgb(22, 234, 229 );" target="_blank">Orientación Educativa Integral</a>
+                , tanto asesoría psicopedagógica personalizada, como talleres no curriculares de desarrollo humano y profesional
+                orientados a la consolidación del perfil de egreso de la carrera
+            </p>
+        </article>
+    </section>
       <section> <!--Paginas de Interes-->
         <div id="cards">
 
@@ -110,12 +145,10 @@
             </center>
             <div class="card-body">
                 <h5 class="card-title" style="color: black;" align="center">Olimpia</h5>
-                <p class="card-text" style="font-size:small;">Podrás encontrar información del departamento de Electrónica, Electrica, Industrial y Mecánica</p>
+                <p class="card-text" style="font-size:x-small;">Podrás encontrar información del departamento de Electrónica, Electrica, Industrial y Mecánica</p>
                 <div class="d-grid gap-3">
                   <a href="http://olimpia.cuautitlan2.unam.mx/pagina_ingenieria/" class="btn btn-outline-info" style="margin:15px;" target="_blank">
-                    <span class="material-icons"> 
-                      open_in_new
-                    </span>
+                    <i class="bi bi-box-arrow-up-right"></i>
                   </a>
                 </div>
             </div>
@@ -130,9 +163,7 @@
               <h5 class="card-title" style="color:black;text-align: center;">Becarios UNAM</h5>
                 <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
                   <a class="btn btn-outline-info" href="https://www.becarios.unam.mx/" role="button" target="_blank">
-                    <span class="material-icons">
-                      open_in_new
-                    </span>
+                    <i class="bi bi-box-arrow-up-right"></i>
                   </a>
                 </div>  
                 <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
@@ -152,6 +183,37 @@
             </div>
           </div>
 
+          <!--ServiciosEscolares-->
+          <div class="card  align-self-center" style="width:200px; margin:10px;">
+            <center>
+            <img src="./logos/uae.png" class="card-img-top" style="width:auto;height:100px;">
+            </center>
+    
+          <div class="card-body">
+            <h5 class="card-title" style="color:black;text-align: center;">Servicios Escolares</h5>
+          
+              <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+                <a class="btn btn-outline-info" href="http://cuautitlan.dgae.unam.mx" role="button" target="_blank">
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>  
+            
+              <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+                <a class="btn btn-outline-secondary" style="font-size: x-small;" href="http://cuautitlan.dgae.unam.mx/www/intranet/usuarios/ctrl/acceso/index.php" role="button" target="_blank"> 
+                Ventanilla Virtual
+                </a>
+              </div>
+            
+              <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+                <a class="btn btn-outline-secondary" style="font-size: xx-small;" href="http://cuautitlan.dgae.unam.mx/Servicios_Escolares/formatos/calendar/calend212.pdf" role="button" target="_blank">
+                  <center>
+                  Calendario de Actividades
+                  </center>
+                </a>
+              </div>
+            </div>
+        </div>
+
           <!--CIFESC UNAM-->
           <div class="card  align-self-center" style="width:200px; margin:10px;">
             <center>
@@ -163,9 +225,7 @@
           
               <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
                 <a class="btn btn-outline-info" href="http://idiomas.cuautitlan2.unam.mx/" role="button" target="_blank">
-                  <span class="material-icons"> <!--Portal-->
-                    open_in_new
-                  </span>
+                  <i class="bi bi-box-arrow-up-right"></i>
                 </a>
               </div>  
             
@@ -192,12 +252,11 @@
         <div class="card  align-self-center" style="width:200px; margin:10px;">
         <div>
           <center>
-          <img src="./logos/logo-pumas.png" class="card-img-top" style="width:100px; height:100px;">
+          <img src="./logos/logo-pumas.png" class="card-img-top" style="width:100px; height:auto;">
           </center>
         </div>
         <div class="card-body">
-          <h5 class="card-title" style="color:black;text-align: center;">Talleres Culturales y Deporte</h5>
-          
+          <h6 class="card-title" style="color:black;text-align: center;">Talleres Culturales y Deporte</h6>
           <div class="row" style="margin-bottom:5px;padding: 5%">
             <div class="col-6">
             <center>
@@ -221,7 +280,7 @@
               <center>
                 <a class="btn btn-outline-info" href="https://www.cuautitlan.unam.mx/deporte/index.html" role="button" target="_blank">
                   <center>
-                    <img src="logos/deportes-fesc.jpg" class="img-fluid">
+                    <img src="logos/deportes-fesc.png" class="img-fluid">
                   </center>
                 </a>
               </center>
@@ -239,6 +298,92 @@
 
         </div>
       </div>
+
+    <!--UNAD-->
+    <div class="card  align-self-center" style="width:200px; margin:10px;">
+      <center>
+      <img src="./logos/unad.png" class="card-img-top" style="width:auto;height:100px;">
+      </center>
+    <div class="card-body">
+      <h6 class="card-title" style="color:black;text-align: center;">Unidad para la Atención y Seguimiento de Denuncias</h6>
+      <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+          <a class="btn btn-outline-info" href="http://132.248.83.187/UNAD/" role="button" target="_blank">
+            <i class="bi bi-box-arrow-up-right"></i>
+          </a> 
+      </div>
+    </div>
+  </div>
+
+  <!--IgualdadDeGenero-->
+  <div class="card  align-self-center" style="width:200px; margin:10px;">
+    <center>
+    <img src="./logos/IgualdadDeGenero.png" class="card-img-top" style="width:auto;height:100px;">
+    </center>
+  <div class="card-body">
+    <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+        <a class="btn btn-outline-info" href="http://132.248.83.187/UNAD/" role="button" target="_blank">
+          <i class="bi bi-box-arrow-up-right"></i>
+        </a> 
+    </div>
+    <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+      <a class="btn btn-primary" href="https://www.facebook.com/igualdadUNAM" role="button" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
+   </div>
+   <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+    <a class="btn btn-danger" href="https://www.instagram.com/igualdadunam/" role="button" target="_blank">
+      <i class="bi bi-instagram"></i>
+    </a>
+    </div>
+  </div>
+</div>
+
+<!--CREE-->
+<div class="card  align-self-center" style="width:200px; margin:10px;">
+  <center>
+  <img src="./logos/cre.png" class="card-img-top" style="width: 100px;;height:auto;margin-top:5px;margin-bottom:5px;">
+  </center>
+<div class="card-body">
+  <h6 class="card-title" style="color:black;text-align: center;">Consejo de Representantes Estudiantiles</h6>
+  <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+      <a class="btn btn-primary" href="https://www.facebook.com/creefesc" role="button" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
+  </div>
+  <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+    <a class="btn btn-danger" href="https://www.instagram.com/cre.fesc.unam/" role="button" target="_blank">
+      <i class="bi bi-instagram"></i>
+    </a>
+  </div>
+  <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+    <a class="btn btn-primary" href="https://colectivoestudiantilfesc.wordpress.com" role="button" target="_blank">
+      <center>
+        <img src="logos/wordpress.png" class="card-img-top" style="height: 20px;width: auto;">
+      </center>
+    </a>
+  </div>
+</div>
+</div>
+
+<!--PáginaFESC-->
+<div class="card  align-self-center" style="width:200px; margin:10px;">
+  <center>
+  <img src="./logos/black-logo-fesc.jpg" class="card-img-top" style="width:auto;height:100px;">
+  </center>
+<div class="card-body">
+  <h6 class="card-title" style="color:black;text-align: center;"> Página Institucional</h6>
+  <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+      <a class="btn btn-outline-info" href="https://www.cuautitlan.unam.mx/" role="button" target="_blank">
+        <i class="bi bi-box-arrow-up-right"></i>
+      </a> 
+  </div>
+  <div class="d-grid gap-3" style="margin: 6px 0px 6px 0px;">
+      <a class="btn btn-primary" href="https://www.facebook.com/fescunamoficial/" role="button" target="_blank">
+        <i class="bi bi-facebook"></i>
+      </a>
+  </div>
+</div>
+</div>
     </div> 
    </section>
    </main> 
